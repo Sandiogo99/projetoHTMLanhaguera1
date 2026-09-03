@@ -1,5 +1,5 @@
 body{
-    background-color: #967C44;
+    background-color: #85724a;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25PX;
@@ -13,14 +13,14 @@ body{
 
 /* FORMANATAR O CABEÇALHO*/
 header {
-    width:90%; /*largura*/
+    width:100%; /*largura*/
     height: 300px; /*altura*/
     border: 2px dashed #000;
     background-color:rgb(185, 78, 35);
     margin-bottom: 5%;
     color: #fff;
-    padding-top: 10%;
-    padding-left: 10%;
+    /*padding-top: 10%;
+    padding-left: 10%;*/
     text-align:center;
 }
 
@@ -51,14 +51,29 @@ footer{
 
 }
 
-header nav ol a{
+/*header nav ol a{
     display: flex;
     list-style-type: none;
     text-decoration: none;
-}
+}*/
 
 .botao{
+    display: inline-block; 
+    color: #fff;
+    background-color: #000;
     border: 2px solid #fff;
     margin-left: 1%;
     width: 20%;
 }
+
+.botao:hover{ 
+    color: #000;
+    background-color:#85724a;  
+
+
+
+}
+#paginaInicial{
+    margin-left: 1%;
+}
+
